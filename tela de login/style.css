@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;}
+
+body { height: 100vh;
+width: 100%;
+overflow-x:hidden ;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url(baixados\ \(1\).jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+main { height: 90%;}
+
+section {display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 70%;
+gap: 20px;}
+
+
+section h1 {color: white;
+font-size: 3.5em;
+margin-bottom: 20px;}
+
+
+form {display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+form input {padding:8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+form input::placeholder {color: black;}
+
+form button {padding: 10px;
+width: 180px;
+border-radius: 10px;
+border: none;
+color: white;
+font-size: 1rem;
+background-color: rgb(11, 60, 42);}
