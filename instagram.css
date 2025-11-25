@@ -20,6 +20,12 @@ align-items: center;
 height: 100vh;
 color: white;
 font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+background:linear-gradient(135deg,#4f5bd5,#962fbf,#d62976,#feda75,
+#fa7e1e
+
+
+
+) ;
 }
 
 main {background-color: black;
